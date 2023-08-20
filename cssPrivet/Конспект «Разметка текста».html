@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Первое испытание</title>
+    <link rel="stylesheet" href="outlines-challenge.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Заголовок сайта
+        </h1>
+    </header>
+
+    <main>
+        <nav> Навигация
+        </nav>
+        <section>
+            <p>Описание 1</p>
+            <p>Описание 2</p>
+        </section>
+        <article>
+            <h2>Cписки</h2>
+            <ol>нумерованный список
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ol>
+            <ul> не нумерованные списки
+                <li>1</li>
+                <li>3</li>
+                <li>2</li>
+            </ul>
+            <ol start="-5" reversed> нумерованный список --&gt несколько атрибутов: start, reversed и type(тип маркеров)
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ol>
+            <dl> dl -- список описаний, dt -- description term, dd -- description definition
+                <dt>HTML</dt>
+                <dd>Язык гипертекстовой разметки</dd>
+                <dt>CSS</dt>
+                <dd>Каскадные таблицы стилей</dd>
+                <dd>Язык для оформления HTML-документов</dd>
+            </dl>
+        </article>
+
+        <article>
+            <h2>Разное</h2>
+            <pre>Пример
+                преформатированного
+                текста     с сохранёнными пробелами
+                             и переносами строк</pre>
+        </article>
+        <article>
+            <p>&ltul&gt</p>
+            <p>&lt/ul&gt</p>
+        </article>
+        <article>
+            <p>&ltcode&gt ul &lt/code&gt</p>
+            <p>Тег <code>ul</code> — это неупорядоченный список.</p>
+        </article>
+
+        <article>
+            <h2>Цитаты</h2>
+            <p> <cite>Лев Толстой</cite> - <q>Счастлив не тот, кто всегда делает то, что хочет, а тот, кто всегда хочет
+                    того, что делает.</q></p>
+            <blockquote>
+                <p>Ум ценится дорого, когда дешевеет сила.</p>
+                <cite>Джейсон Стэтхэм</cite>
+            </blockquote>
+        </article>
+
+        <article>
+            br - перенос строки, не создавая при этом абзац
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Totam odit vitae eos impedit,<br> nam ut
+                quia doloremque eveniet quam dolores.</p>
+            <p>
+            <pre>
+                20м<sup>2</sup>
+                H<sub>2</sub>O
+                X<sup>3</sup>+X<sup>2</sup>=1
+            </pre>
+            </p>
+        </article>
+        <article>
+            <h2>Дата и время</h2>
+            <ul>
+                <li> <time datetime="2016-11-18T09:54">09:54 утра</time></li>
+                <li><time datetime="2015-11-18">18 ноября 2015</time></li>
+                <li><time datetime="2018-09-23">в прошлую субботу</time></li>
+                <li> <time datetime="2017-04-20">вчера</time></li>
+            </ul>
+            <h2>Акцент и внимание</h2>
+            <ul>
+                <li>Почистить посудомоечную машину</li>
+                <li><del datetime="2009-10-11T01:25-07:00">Погулять</del></li>
+                <li><del datetime="2009-10-10T23:38-07:00">Поспать</del></li>
+                <li><ins>Купить принтер</ins></li>
+            </ul>
+        </article>
+        <article>Разделение контента
+            <article>
+                <div class="highlight">
+                    <p>…</p>
+                    <p>…</p>
+                </div>
+                <p>Текст, в котором <span style="color: red;">выделена фраза</span></p>
+            </article>
+        </article>
+
+        <aside> Сайдбар
+        </aside>
+    </main>
+
+    <footer>
+        Подвал сайта
+    </footer>
+
+</body>
+
+</html>

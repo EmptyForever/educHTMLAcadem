@@ -1,0 +1,35 @@
+body {
+    width: 550px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.image-map {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blueviolet; */
+    width: 290px;
+    height: 290px;
+    margin: auto;
+}
+
+.image-map img {
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.image-map .pic-1 {
+    border-color: blueviolet;
+}
+
+.pic-2 {
+    border-color: coral;
+}
+
+.pic-3 {
+    border-color: coral;
+}
+
+.pic-4 {
+    border-color: coral;
+}
